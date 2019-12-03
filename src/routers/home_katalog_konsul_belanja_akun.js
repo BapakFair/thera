@@ -8,6 +8,7 @@ import Katalog from './../../pages/katalog/katalog'
 import Konsultasi from './../../pages/chat/chatOffline'
 import Belanja from './../../pages/cart/cart'
 import Akun from './../../pages/akun/akun'
+import DetilProduk from './../../pages/katalog/produkDetil'
 import { createStackNavigator } from 'react-navigation-stack'
 import { View } from 'native-base'
 
@@ -20,12 +21,12 @@ import { View } from 'native-base'
 //     headerMode :"none"
 // }))
 
-// const explore_to_detilPost = createAppContainer(createStackNavigator({
-//     explore: Explore,
-//     detilPost: PostDetail,
-// }, {
-//     headerMode: "none"
-// }))
+const Katalog_to_Detil = createAppContainer(createStackNavigator({
+    katalog: Katalog,
+    detil: DetilProduk
+}, {
+    headerMode: "none"
+}))
 
 
 
@@ -47,7 +48,7 @@ const MainHome = createAppContainer(createMaterialTopTabNavigator(
             }
         },
         katalog : {
-            screen: Katalog,
+            screen: Katalog_to_Detil,
             navigationOptions : {
                 tabBarIcon : 
                 <View>
