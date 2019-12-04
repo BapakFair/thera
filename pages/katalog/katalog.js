@@ -90,11 +90,6 @@ export default class katalog extends Component {
                                     )
                                 })
                             }
-                
-                
-                
-                    
-                    
             </View>
                 </ScrollView>
 
