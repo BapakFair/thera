@@ -33,12 +33,11 @@ green cherry grey : #d6e5d1
 </script>
 
 
-pertanyaan hari senen 25/11/2019
-- network error saat mencoba untuk klik register
-- membuat API check username, email.
-- membuat API nodemailer
-- login facebook 
-- login google
+
 
 
 git push -u thera master
+
++ cara admin page post dan update produk
++ cara tambah dan filter cart, add to cart.
++ cara edit user detail
